@@ -1,0 +1,21 @@
+# ML2023Spring-hw1
+
+## Task Description
+    COVID-19 daily cases prediction
+    Training data: 3009 samples
+    Testing data: 997 samples
+    Evaluation metric: Mean Squared Error (MSE)
+
+## Deadlines
+    Kaggle: 03/01/2023 23:59:59 (UTC+8)
+    NTU COOL: 03/08/2023 23:59:59 (UTC+8)
+    NO LATE SUBMISSION
+
+## Notes
+    - Maximum daily submission: 5 times
+    - If there is any question or concern, you may discuss with us on NTU COOL or email ( mlta-2023-spring@googlegroups.com with the title beginning with [hw1]).
+
+## FAQ
+    L2 regularization 除了 sample code 提供的在計算 loss 時處理之外，也可以使用 optimizer 的 weight_decay 實現，可參考 🔗 PyTorch 官方文檔 sklearn、 TensorFlow、 xgboost 是可以使用的（使用額外線上資源請附上 Reference）
+    只要 Post-processing 是由程式自動完成，且並未違反規定（如不能使用 pre-trained model、不能直接輸出 hardcode 的結果、不能上網爬資料等），都是可以接受的，另外，請記得將後處理的程式一併交上，若沒有交上，將視為違反規定。
+    同學只要確認上傳時的檔名正確，COOL 系統內部會在同名的檔案依照版本順序加上編號，忽略即可（如 "學號_hw1-1.zip" 等）。另外請同學確認最後一次上傳的版本是正確的，我們只會認最新的版本
